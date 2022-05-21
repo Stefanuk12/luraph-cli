@@ -1,0 +1,32 @@
+{
+  "name": "luraph-cli",
+  "version": "1.0.0",
+  "description": "Allows you to use the Luraph API via a CLI",
+  "exports": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stefanuk12/luraph-cli.git"
+  },
+  "keywords": [],
+  "author": "Stefanuk12",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Stefanuk12/luraph-cli/issues"
+  },
+  "homepage": "https://github.com/Stefanuk12/luraph-cli#readme",
+  "dependencies": {
+    "commander": "^9.2.0",
+    "luraph-extended": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35"
+  },
+  "bin": {
+    "luraph-cli": "./lib/index.js"
+  }
+}
